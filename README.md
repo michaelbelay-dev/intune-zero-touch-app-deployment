@@ -53,6 +53,9 @@ Applications are uploaded as Win32 packages into Intune.
 ### Step 3 — Baseline Device Group
 Create or use a device group such as:
 
+A dynamic device group was created to automatically include all Windows devices enrolled in Intune.
+
+This allows administrators to deploy required applications to all corporate endpoints without targeting individual users.
 Corporate Windows Devices
 
 This group represents all managed endpoints.
